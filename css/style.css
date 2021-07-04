@@ -1,0 +1,88 @@
+:root {
+  --main-bg-color: #2874f0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  height: 12vh;
+  color: whitesmoke;
+  background-color: var(--main-bg-color);
+}
+header {
+  background-color: var(--main-bg-color);
+  color: whitesmoke;
+  font-family: "Lato", sans-serif;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  padding: 0 17px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 23px;
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  height: 29px;
+  width: 493px;
+  border: 2px solid white;
+  border-radius: 9px;
+  margin: 0px 56px;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  margin: 12px auto;
+  overflow: hidden;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card {
+  max-width: 91vw;
+  margin: 37px auto;
+  font-family: "Ubuntu", sans-serif;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 15px;
+}
+.card h2 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  
+}
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
